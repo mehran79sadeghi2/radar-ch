@@ -15,7 +15,15 @@
     "chart"
   ],
   "author": "Mehran",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mehran79sadeghi2/radar-ch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mehran79sadeghi2/radar-ch.git/issues"
+  },
+  "homepage": "https://github.com/mehran79sadeghi2/radar-ch.git",
   "devDependencies": {
     "@babel/core": "^7.7.5",
     "@babel/plugin-syntax-jsx": "^7.14.5",
