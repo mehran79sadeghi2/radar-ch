@@ -7,7 +7,12 @@
     "build": "webpack"
   },
   "keywords": [
-    "radar"
+    "radar",
+    "radar-ch",
+    "ch-radar",
+    "radar-chart",
+    "radar chart",
+    "chart"
   ],
   "author": "Mehran",
   "license": "ISC",
