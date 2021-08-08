@@ -5,12 +5,12 @@ import Shapes from "./shapes/shapes";
 import styles from "./index.module.css";
 import Labels from "./labels/labels";
 
-const Radar = ({ grid, max_value, data, keys, index_by, dot, border, shape, label, mirror = false }) => {
+const Radar = ({ grid, max_value, data, keys, index_by, dot, border, shape, label, mirror = false, size }) => {
     const radar_ref = useRef(null);
     const { width, height } = useContainerDimensions(radar_ref);
 
     const get_dimention = useCallback(() => {
-        return Math.min(width, height);
+        return size || Math.min(width, height);
     }, [width, height]);
 
     return (

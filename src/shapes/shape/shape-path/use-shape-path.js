@@ -124,7 +124,7 @@ const useShapePath = (points, coefficient = 0, dimention = 0) => {
         })
         path_d += `C ${get_curve(points, points.length - 1, true)} ${get_curve(points, 0, false)} ${!first_render ? dimention / 2 : points[0].width},${!first_render ? dimention / 2 : points[0].height} z`;
         return path_d;
-    }, [points, coefficient]);
+    }, [points, coefficient, first_render]);
 
     const path_d = get_path_d();
 
